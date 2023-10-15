@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.halaman1 {
+  background-color: #34353a;
+  width: auto;
+}
+.pembuka {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.salam {
+  padding: 30px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  color: #fe7702;
+  font-weight: 800;
+}
+.nama {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 30px;
+}
+.tombol {
+  padding: 10px;
+  display: grid;
+  margin: 10;
+  justify-content: center;
+}
+.tombol a {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #fe7702;
+  padding: 10px;
+  color: #fe7702;
+  border-radius: 7px;
+  border-width: 2px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 900;
+  transition: 0.5s;
+}
+.tombol a:hover {
+  color: #ffffff;
+  background-color: #fe7702;
+}
+.foto {
+  --tw-shadow-color: #fe7702;
+  box-shadow: 0 25px 10px -12px rgb(240, 147, 7);
+}
+.foto img {
+  width: 200px;
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  padding-top: 50px;
+  margin-left: 30px;
+}
